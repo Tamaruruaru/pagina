@@ -1,0 +1,71 @@
+export const LEARNING_PATHS = [
+    {
+        id: 'matematicas',
+        title: 'Matemáticas Esenciales',
+        description: 'Domina las operaciones y el razonamiento numérico que se usan todos los días: compras, presupuestos y medidas.',
+        level: 'Inicial',
+        icon: 'calculator',
+        accent: 'bg-primary',
+        lessons: [
+            { id: 'mat-1', title: 'Números y operaciones', minutes: 20 },
+            { id: 'mat-2', title: 'Fracciones y proporciones', minutes: 30 },
+            { id: 'mat-3', title: 'Porcentajes en la vida diaria', minutes: 25 },
+            { id: 'mat-4', title: 'Ecuaciones de primer grado', minutes: 35 },
+            { id: 'mat-5', title: 'Geometría práctica', minutes: 30 },
+            { id: 'mat-6', title: 'Estadística básica', minutes: 25 },
+        ],
+    },
+    {
+        id: 'lectura',
+        title: 'Lectura Crítica',
+        description: 'Aprende a leer con atención, detectar argumentos y distinguir información confiable en tu comunidad.',
+        level: 'Intermedio',
+        icon: 'book',
+        accent: 'bg-navy-900',
+        lessons: [
+            { id: 'lec-1', title: 'Ideas principales', minutes: 20 },
+            { id: 'lec-2', title: 'Inferencias y contexto', minutes: 25 },
+            { id: 'lec-3', title: 'Argumentos y opiniones', minutes: 30 },
+            { id: 'lec-4', title: 'Fuentes confiables', minutes: 25 },
+            { id: 'lec-5', title: 'Lectura de noticias locales', minutes: 20 },
+        ],
+    },
+    {
+        id: 'programacion',
+        title: 'Programación desde Cero',
+        description: 'Del pensamiento lógico a tu primer proyecto: una ruta guiada para crear tecnología en tu barrio.',
+        level: 'Inicial',
+        icon: 'code',
+        accent: 'bg-emerald-600',
+        lessons: [
+            { id: 'pro-1', title: 'Pensamiento lógico', minutes: 20 },
+            { id: 'pro-2', title: 'Variables y datos', minutes: 25 },
+            { id: 'pro-3', title: 'Decisiones con condicionales', minutes: 30 },
+            { id: 'pro-4', title: 'Bucles y repeticiones', minutes: 30 },
+            { id: 'pro-5', title: 'Funciones', minutes: 35 },
+            { id: 'pro-6', title: 'Tu primer proyecto', minutes: 40 },
+        ],
+    },
+    {
+        id: 'ciencias',
+        title: 'Ciencias de la Comunidad',
+        description: 'Experimentos y proyectos sobre el agua, la energía y las plantas de tu propia localidad.',
+        level: 'Intermedio',
+        icon: 'flask',
+        accent: 'bg-sky-600',
+        lessons: [
+            { id: 'cie-1', title: 'El agua en tu localidad', minutes: 25 },
+            { id: 'cie-2', title: 'Energía en casa', minutes: 25 },
+            { id: 'cie-3', title: 'Plantas y huertos urbanos', minutes: 30 },
+            { id: 'cie-4', title: 'Clima y estaciones', minutes: 25 },
+            { id: 'cie-5', title: 'Proyecto comunitario final', minutes: 45 },
+        ],
+    },
+];
+
+export const PATH_ICONS = {
+    calculator: 'Calculator',
+    book: 'BookOpen',
+    code: 'Code2',
+    flask: 'FlaskConical',
+};
